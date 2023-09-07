@@ -1,13 +1,11 @@
 import Header from "@/components/header/Header";
-import ImgCard from "@/components/imagecard/ImgCard";
-import Text from "@/components/text/Text";
-import Avatar from "@mui/material/Avatar";
+import Middle from "@/components/middle/Middle";
 
 const Index = () => {
   return (
     <>
       <Header />
-      <ImgCard />
+      <Middle />
     </>
   );
 };
