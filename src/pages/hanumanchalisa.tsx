@@ -4,7 +4,7 @@ import React from "react";
 import hanumanImg from "../../public/images/hanuman.jpg";
 import Button from "@mui/material/Button";
 import { useRouter } from "next/router";
-const hanumanchalisa = () => {
+const Hanumanchalisa = () => {
   const router = useRouter();
   const redirectToSpecificURL = () => {
     router.push("/");
@@ -26,4 +26,4 @@ const hanumanchalisa = () => {
   );
 };
 
-export default hanumanchalisa;
+export default Hanumanchalisa;
