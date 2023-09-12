@@ -1,6 +1,8 @@
 import React from "react";
 import AvatarImg from "../avatar/AvatarImg";
 import hanuman from "../../../public/images/hanuman.jpg";
+import ganpati from "../../../public/images/ganpati.jpg";
+import balaji from "../../../public/images/balaji.jpg";
 
 const Middle = () => {
   return (
@@ -20,16 +22,16 @@ const Middle = () => {
         imgText="हनुमान चालीसा"
       />
       <AvatarImg
-        alt="hanuman"
-        img={hanuman.src}
-        url="/hanumanchalisa"
+        alt="balaji"
+        img={balaji.src}
+        url="/balaji"
         imgText="हनुमान चालीसा"
       />
       <AvatarImg
         alt="hanuman"
-        img={hanuman.src}
+        img={ganpati.src}
         url="/hanumanchalisa"
-        imgText="हनुमान चालीसा"
+        imgText="गणपती आरती"
       />
       <AvatarImg
         alt="hanuman"
