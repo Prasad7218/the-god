@@ -30,7 +30,7 @@ const Middle = () => {
       <AvatarImg
         alt="hanuman"
         img={ganpati.src}
-        url="/hanumanchalisa"
+        url="/ganpati"
         imgText="गणपती आरती"
       />
       <AvatarImg
